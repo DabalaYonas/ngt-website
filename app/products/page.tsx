@@ -14,8 +14,8 @@ export default function ProductsPage() {
   const [activeCategory, setActiveCategory] = useState("All")
   const categories = getProductCategories()
 
-  const filteredProducts = activeCategory === "All" 
-    ? products 
+  const filteredProducts = activeCategory === "All"
+    ? products
     : products.filter(p => p.category === activeCategory)
 
   return (
@@ -33,7 +33,7 @@ export default function ProductsPage() {
                 Enterprise Solutions for Every Need
               </h1>
               <p className="mt-6 text-lg text-muted-foreground text-pretty">
-                Explore our comprehensive catalog of premium products across networking, security, 
+                Explore our comprehensive catalog of premium products across networking, security,
                 smart systems, and infrastructure solutions designed to power your business.
               </p>
             </div>
@@ -41,7 +41,7 @@ export default function ProductsPage() {
         </section>
 
         {/* Category Filter */}
-        <section className="py-8 border-b border-border bg-background/95 backdrop-blur-md sticky top-16 lg:top-20 z-40">
+        <section className="py-8 border-b border-border bg-background/95 backdrop-blur-md">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="flex flex-wrap gap-2 justify-center">
               {categories.map((category) => (
@@ -82,7 +82,7 @@ export default function ProductsPage() {
                         className="object-cover group-hover:scale-105 transition-transform duration-300"
                       />
                     ) : (
-                      <div 
+                      <div
                         className="w-full h-full flex items-center justify-center"
                         style={{ backgroundColor: `${product.color}15` }}
                       >
@@ -99,7 +99,7 @@ export default function ProductsPage() {
                     <h3 className="text-lg font-semibold text-foreground mb-2 group-hover:text-[#a2ce39] transition-colors">
                       {product.name}
                     </h3>
-                    
+
                     <p className="text-sm text-muted-foreground mb-4 line-clamp-2">
                       {product.shortDescription}
                     </p>
@@ -130,7 +130,7 @@ export default function ProductsPage() {
               Need Help Selecting the Right Product?
             </h2>
             <p className="text-lg text-gray-300 mb-8">
-              Our product specialists are ready to understand your requirements and recommend 
+              Our product specialists are ready to understand your requirements and recommend
               the perfect solution for your organization.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
