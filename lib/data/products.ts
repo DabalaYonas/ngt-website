@@ -39,11 +39,11 @@ export const products: Product[] = [
   {
     id: "1",
     slug: "raised-access-flooring",
-    name: "Raised Access Flooring System",
+    name: "Raised Floor",
     category: "Networking Infrastructure",
-    shortDescription: "High-load antistatic flooring for data centers and server rooms",
+    shortDescription: "Antistatic modular flooring for data centers and server rooms",
     description:
-      "A premium modular flooring solution designed for modern data centers. It provides a dedicated under-floor space for structured cabling and pressurized cooling airflow while offering superior load-bearing capacity and antistatic properties.",
+      "Modular raised flooring built for data centers. Creates under-floor space for cabling and airflow management, with high load-bearing capacity and antistatic properties.",
     icon: Layers,
     image: "/images/products/raised-flooring.jpg",
     features: [
@@ -62,11 +62,11 @@ export const products: Product[] = [
   {
     id: "2",
     slug: "enterprise-wireless-ap",
-    name: "Enterprise Wireless Access Point",
+    name: "Wireless Access Point",
     category: "Networking Equipment",
-    shortDescription: "High-performance WiFi 6 access point for dense environments",
+    shortDescription: "WiFi 6 access point for high-density environments",
     description:
-      "Professional-grade wireless access point featuring WiFi 6 (802.11ax) technology. Designed for seamless roaming and high-density connectivity in offices, university campuses, and large commercial venues.",
+      "WiFi 6 access point built for offices, campuses, and commercial venues. Delivers fast, reliable wireless connectivity with support for hundreds of concurrent clients.",
     icon: Wifi,
     image: "/images/products/wireless-ap.jpg",
     features: [
@@ -85,11 +85,11 @@ export const products: Product[] = [
   {
     id: "3",
     slug: "core-network-switch",
-    name: "Layer 3 Managed Core Switch",
+    name: "Core Switch",
     category: "Networking Equipment",
-    shortDescription: "High-speed backbone switch with 10Gbps fiber uplink",
+    shortDescription: "Backbone switch with 10Gbps fiber uplink",
     description:
-      "An enterprise-level managed switch designed for the network core. It offers high-density Gigabit ports and multiple 10Gbps SFP+ fiber ports for ultra-fast data transmission and campus backbone connectivity.",
+      "Managed core switch for enterprise networks. Offers high-density Gigabit ports and 10Gbps SFP+ fiber uplinks for fast, reliable backbone connectivity.",
     icon: Network,
     image: "/images/products/network-switch.jpg",
     features: [
@@ -108,11 +108,11 @@ export const products: Product[] = [
   {
     id: "4",
     slug: "server-network-rack",
-    name: "42U Professional Server Rack",
+    name: "Server Rack",
     category: "Networking Infrastructure",
-    shortDescription: "Secure, ventilated enclosure for servers and networking gear",
+    shortDescription: "Ventilated enclosure for servers and networking gear",
     description:
-      "A heavy-duty 42U equipment rack designed for organized cable management and optimal airflow. Features lockable mesh doors and removable side panels for high-security environments.",
+      "Heavy-duty 42U rack with organized cable management and optimal airflow. Features lockable mesh doors and removable side panels for secure equipment housing.",
     icon: Server,
     image: "/images/products/server-rack.jpg",
     features: [
@@ -131,11 +131,11 @@ export const products: Product[] = [
   {
     id: "5",
     slug: "industrial-outdoor-ap",
-    name: "Industrial Rugged Access Point",
+    name: "Rugged Access Point",
     category: "Networking Equipment",
     shortDescription: "IP67-rated outdoor wireless for harsh environments",
     description:
-      "Ruggedized outdoor access point engineered to withstand extreme temperatures and moisture. Perfect for industrial sites, construction zones, and outdoor campus coverage.",
+      "Ruggedized outdoor access point built for extreme conditions. Ideal for industrial sites, construction zones, and outdoor campuses where standard equipment won't hold up.",
     icon: ShieldCheck,
     image: "/images/products/industrial-ap.jpg",
     features: [
@@ -154,11 +154,11 @@ export const products: Product[] = [
   {
     id: "6",
     slug: "fiber-optic-patch-panel",
-    name: "Fiber Optic Patch Panel (High Density)",
+    name: "Fiber Patch Panel",
     category: "Networking Infrastructure",
-    shortDescription: "1U sliding fiber enclosure for organized termination",
+    shortDescription: "High-density fiber enclosure for organized termination",
     description:
-      "A 1U rack-mount sliding patch panel designed for high-density fiber terminations. Supports LC, SC, and ST connectors with integrated splice trays for clean and protected fiber management.",
+      "1U rack-mount sliding patch panel for high-density fiber terminations. Supports LC, SC, and ST connectors with integrated splice trays for clean fiber management.",
     icon: Cable,
     image: "/images/products/fiber-patch-panel.jpg",
     features: [
