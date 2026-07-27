@@ -146,14 +146,6 @@ export function Footer() {
             <p className="text-gray-500 text-sm">
               Developed by <Link href="https://dabala.vercel.app" target="_blank" className="text-[#a2ce39]">Dabala Yonas</Link>
             </p>
-            <div className="flex gap-6 text-sm">
-              <Link href="/privacy" className="text-gray-400 hover:text-[#a2ce39] transition-colors">
-                Privacy Policy
-              </Link>
-              <Link href="/terms" className="text-gray-400 hover:text-[#a2ce39] transition-colors">
-                Terms of Service
-              </Link>
-            </div>
           </div>
         </div>
       </div>

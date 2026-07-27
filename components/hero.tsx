@@ -16,10 +16,7 @@ export function Hero() {
         <div className="grid lg:grid-cols-2 gap-8 lg:gap-12 items-center">
           {/* Content */}
           <div className="text-center lg:text-left">
-            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-[#a2ce39]/10 border border-[#a2ce39]/20 mb-6">
-              <span className="w-2 h-2 rounded-full bg-[#a2ce39] animate-pulse" />
-              <span className="text-sm font-medium text-[#a2ce39]">Trusted Partner Since 2020</span>
-            </div>
+
             
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold leading-tight text-balance">
               <span className="text-foreground">Innovative Solutions for </span>
