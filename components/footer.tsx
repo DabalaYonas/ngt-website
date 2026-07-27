@@ -109,7 +109,7 @@ export function Footer() {
             <h3 className="text-lg font-semibold mb-6">Contact Info</h3>
             <ul className="space-y-4">
               <li className="flex gap-3">
-                <MapPin className="h-5 w-5 text-[#a2ce39] flex-shrink-0 mt-1" />
+                <MapPin className="h-5 w-5 text-gray-400 group-hover:text-[#1a1a2e] flex-shrink-0 mt-1" />
                 <span className="text-gray-400">
                   Dabi Complex 3rd floor no. 004,<br />
                   Airport Road, Addis Ababa, Ethiopia
@@ -117,19 +117,19 @@ export function Footer() {
               </li>
               <li>
                 <a href="tel:+251911473611" className="flex gap-3 text-gray-400 hover:text-[#a2ce39] transition-colors">
-                  <Phone className="h-5 w-5 text-[#a2ce39] flex-shrink-0" />
+                  <Phone className="h-5 w-5 text-gray-400 group-hover:text-[#1a1a2e] flex-shrink-0" />
                   +251 911 473 611
                 </a>
               </li>
               <li>
                 <a href="tel:+251911285288" className="flex gap-3 text-gray-400 hover:text-[#a2ce39] transition-colors">
-                  <Phone className="h-5 w-5 text-[#5971c8] flex-shrink-0" />
+                  <Phone className="h-5 w-5 text-gray-400 group-hover:text-[#1a1a2e] flex-shrink-0" />
                   +251 911 285 288
                 </a>
               </li>
               <li>
                 <a href="mailto:info@ngtechet.com" className="flex gap-3 text-gray-400 hover:text-[#a2ce39] transition-colors">
-                  <Mail className="h-5 w-5 text-[#a2ce39] flex-shrink-0" />
+                  <Mail className="h-5 w-5 text-gray-400 group-hover:text-[#1a1a2e] flex-shrink-0" />
                   info@ngtechet.com
                 </a>
               </li>
