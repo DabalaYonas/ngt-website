@@ -109,7 +109,7 @@ export default function ContactPage() {
         </section>
 
         {/* Contact Options */}
-        <section className="py-12 border-b border-border">
+        {/* <section className="py-12 border-b border-border">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="grid sm:grid-cols-3 gap-6">
               <div className="flex items-center gap-4 p-6 bg-card rounded-2xl border border-border">
@@ -147,7 +147,7 @@ export default function ContactPage() {
               </div>
             </div>
           </div>
-        </section>
+        </section> */}
 
         {/* Main Contact Section */}
         <section className="py-16 lg:py-24">
@@ -166,7 +166,7 @@ export default function ContactPage() {
                 <div className="bg-card rounded-2xl p-6 border border-border">
                   <h3 className="font-semibold text-foreground mb-6">Contact Information</h3>
                   <div className="space-y-6">
-                    <div className="flex gap-4">
+                    {/* <div className="flex gap-4">
                       <div className="w-10 h-10 rounded-lg bg-[#a2ce39]/10 flex items-center justify-center flex-shrink-0">
                         <Phone className="h-5 w-5 text-[#a2ce39]" />
                       </div>
@@ -179,7 +179,7 @@ export default function ContactPage() {
                           +251 911 285 288
                         </a>
                       </div>
-                    </div>
+                    </div> */}
 
                     <div className="flex gap-4">
                       <div className="w-10 h-10 rounded-lg bg-[#5971c8]/10 flex items-center justify-center flex-shrink-0">

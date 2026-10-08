@@ -26,12 +26,12 @@ export function CTA() {
               <ArrowRight className="ml-2 h-4 w-4" />
             </Link>
           </Button>
-          <Button asChild size="lg" variant="outline" className="border-white/30 text-white hover:bg-white/10 bg-transparent">
+          {/* <Button asChild size="lg" variant="outline" className="border-white/30 text-white hover:bg-white/10 bg-transparent">
             <a href="tel:+251911473611">
               <Phone className="mr-2 h-4 w-4" />
               Call Us Now
             </a>
-          </Button>
+          </Button> */}
         </div>
 
         <div className="mt-12 flex flex-wrap justify-center gap-x-8 gap-y-4 text-gray-400 text-sm">

@@ -133,13 +133,13 @@ export function Header() {
 
           {/* Desktop CTA */}
           <div className="hidden lg:flex items-center gap-4">
-            <a
+            {/* <a
               href="tel:+251911473611"
               className="flex items-center gap-2 text-sm text-muted-foreground hover:text-foreground transition-colors"
             >
               <Phone className="h-4 w-4" />
               +251 911 473 611
-            </a>
+            </a> */}
             <Button asChild className="bg-[#a2ce39] hover:bg-[#8fb82f] text-foreground font-semibold">
               <Link href="/contact">Get in Touch</Link>
             </Button>

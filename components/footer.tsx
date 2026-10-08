@@ -115,18 +115,18 @@ export function Footer() {
                   Airport Road, Addis Ababa, Ethiopia
                 </span>
               </li>
-              <li>
+              {/* <li>
                 <a href="tel:+251911473611" className="flex gap-3 text-gray-400 hover:text-[#a2ce39] transition-colors">
                   <Phone className="h-5 w-5 text-gray-400 group-hover:text-[#1a1a2e] flex-shrink-0" />
                   +251 911 473 611
                 </a>
-              </li>
-              <li>
+              </li> */}
+              {/* <li>
                 <a href="tel:+251911285288" className="flex gap-3 text-gray-400 hover:text-[#a2ce39] transition-colors">
                   <Phone className="h-5 w-5 text-gray-400 group-hover:text-[#1a1a2e] flex-shrink-0" />
                   +251 911 285 288
                 </a>
-              </li>
+              </li> */}
               <li>
                 <a href="mailto:info@ngtechet.com" className="flex gap-3 text-gray-400 hover:text-[#a2ce39] transition-colors">
                   <Mail className="h-5 w-5 text-gray-400 group-hover:text-[#1a1a2e] flex-shrink-0" />

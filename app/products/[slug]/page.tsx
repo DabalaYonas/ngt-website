@@ -90,19 +90,19 @@ export default async function ProductDetailPage({
                   <Button asChild size="lg" className="bg-[#a2ce39] hover:bg-[#8fb82f] text-foreground font-semibold">
                     <Link href="/contact">Get a Quote</Link>
                   </Button>
-                  <Button asChild size="lg" variant="outline" className="border-[#5971c8] text-[#5971c8] hover:bg-[#5971c8] hover:text-white bg-transparent">
+                  {/* <Button asChild size="lg" variant="outline" className="border-[#5971c8] text-[#5971c8] hover:bg-[#5971c8] hover:text-white bg-transparent">
                     <a href="tel:+251911473611">
                       <Phone className="h-4 w-4 mr-2" />
                       Call Us Now
                     </a>
-                  </Button>
+                  </Button> */}
                 </div>
               </div>
 
               <div className="bg-card rounded-2xl p-8 border border-border">
                 <h3 className="text-lg font-semibold text-foreground mb-6">Quick Contact</h3>
                 <div className="space-y-4">
-                  <a
+                  {/* <a
                     href="tel:+251911473611"
                     className="flex items-center gap-3 p-4 rounded-xl bg-muted/50 hover:bg-muted transition-colors"
                   >
@@ -111,7 +111,7 @@ export default async function ProductDetailPage({
                       <p className="text-sm text-muted-foreground">Call us</p>
                       <p className="font-medium text-foreground">+251 911 473 611</p>
                     </div>
-                  </a>
+                  </a> */}
                   <a
                     href="mailto:info@ngtechet.com"
                     className="flex items-center gap-3 p-4 rounded-xl bg-muted/50 hover:bg-muted transition-colors"
